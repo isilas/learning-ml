@@ -10,3 +10,7 @@
 ## 2026-11-26 — Notebook edition
 - Added four runnable Jupyter walkthroughs with equations, experiments, interpretation and practice prompts.
 - Linked all notebooks from the README; preserved course provenance.
+
+## 2026-11-26 — Visual README
+- Added a repository-owned SVG banner and six project/result graphics.
+- Linked visual project cards to the notebooks; labeled conceptual diagrams and plotted recorded metrics without interpolating a training history.
