@@ -7,3 +7,6 @@
 - Executed the experiments and four automated tests successfully.
 - Excluded incomplete RNN and Wine scripts, original assignment handouts, and private course files.
 - Published as a standalone portfolio in learning-ml.
+## 2026-11-26 — Notebook edition
+- Added four runnable Jupyter walkthroughs with equations, experiments, interpretation and practice prompts.
+- Linked all notebooks from the README; preserved course provenance.

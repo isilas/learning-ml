@@ -15,6 +15,22 @@ A collection of machine learning studies motivated by graduate coursework in ECE
 | [03 — Curse of dimensionality](projects/03-dimensionality.md) | Distance concentration, data sparsity, simulation | Nearest-to-typical distance ratio grows from 0.002 to 0.818 (1–100 dimensions) |
 | [04 — Neural networks from first principles](projects/04-neural-network.md) | JAX, ReLU, sigmoid, manual backpropagation, automatic differentiation | 98.0% held-out accuracy; gradient error ~1.04 × 10⁻⁷ |
 
+## Interactive notebooks
+
+Open these notebooks in GitHub or run them in Jupyter after installing the dependencies. Each walks through the question, mathematics, implementation, validation and interpretation.
+
+| Notebook | Focus |
+|---|---|
+| [01 · Classification](notebooks/01-classification.ipynb) | Compare NumPy k-NN with scikit-learn |
+| [02 · Optimization](notebooks/02-optimization.ipynb) | Derive and verify gradients; Gini gain |
+| [03 · Dimensionality](notebooks/03-dimensionality.ipynb) | Explore distance concentration |
+| [04 · Neural network](notebooks/04-neural-network.ipynb) | Derive backpropagation and visualize nonlinear classification |
+
+```bash
+python -m pip install jupyterlab
+jupyter lab
+```
+
 ## Featured: learning a nonlinear decision boundary
 
 <p align="center">
