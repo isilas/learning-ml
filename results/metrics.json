@@ -1,0 +1,70 @@
+{
+  "knn": {
+    "test_samples": 143,
+    "accuracy": 0.9790209790209791,
+    "balanced_accuracy": 0.9716981132075472,
+    "agreement_with_sklearn": 1
+  },
+  "logistic": {
+    "objective": -0.5139963889275705,
+    "gradient": [
+      -0.05797266311799241,
+      0.01598486327416815
+    ]
+  },
+  "dimensions": [
+    {
+      "dimension": 1,
+      "mean": 0.0004962365210080015,
+      "std": 0.0005037974494515224,
+      "relative_to_median_pair_distance": 0.0017196899413669863
+    },
+    {
+      "dimension": 2,
+      "mean": 0.016073793353315834,
+      "std": 0.008588604509498492,
+      "relative_to_median_pair_distance": 0.03112284471884133
+    },
+    {
+      "dimension": 5,
+      "mean": 0.17832195182795021,
+      "std": 0.045217029078266864,
+      "relative_to_median_pair_distance": 0.20102452076531022
+    },
+    {
+      "dimension": 10,
+      "mean": 0.5043329126274437,
+      "std": 0.08178461680575401,
+      "relative_to_median_pair_distance": 0.3993476462493286
+    },
+    {
+      "dimension": 20,
+      "mean": 1.0378587388161609,
+      "std": 0.0983119331470445,
+      "relative_to_median_pair_distance": 0.5742709799455116
+    },
+    {
+      "dimension": 50,
+      "mean": 2.1156799329350706,
+      "std": 0.11113073420497675,
+      "relative_to_median_pair_distance": 0.7361793227408021
+    },
+    {
+      "dimension": 100,
+      "mean": 3.3296990838556777,
+      "std": 0.11485457039804567,
+      "relative_to_median_pair_distance": 0.8176344256591206
+    }
+  ],
+  "neural_network": {
+    "test_samples": 500,
+    "epochs": 5000,
+    "initial_train_loss": 0.5521735548973083,
+    "final_train_loss": 0.05564582347869873,
+    "test_loss": 0.0666358470916748,
+    "test_accuracy": 0.98,
+    "test_balanced_accuracy": 0.9762500000000001,
+    "majority_baseline_accuracy": 0.8,
+    "max_gradient_error": 1.043081283569336e-7
+  }
+}
